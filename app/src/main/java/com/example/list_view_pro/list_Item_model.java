@@ -5,6 +5,19 @@ public class list_Item_model {
     private String title;
     private String auther;
     private int pageCount;
+
+
+    public list_Item_model() {
+    }
+
+
+    public list_Item_model(int img, String title, String auther, int pageCount) {
+        this.img = img;
+        this.title = title;
+        this.auther = auther;
+        this.pageCount = pageCount;
+    }
+
     public int getImg() {
         return img;
     }
