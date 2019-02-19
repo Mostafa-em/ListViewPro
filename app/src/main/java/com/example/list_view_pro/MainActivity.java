@@ -18,15 +18,24 @@ ListView myView;
         List<list_Item_model> models=new ArrayList<list_Item_model>();
         models.add(new list_Item_model(R.mipmap.ic_launcher_round,"ali","athoore",100));
         models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
-        models.add(new list_Item_model(R.layout.pic,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",98));
-        models.add(new list_Item_model(1,"ali","athoore",877));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+        models.add(new list_Item_model(R.mipmap.ic_launcher,"ali","athoore",98));
+
+
 
 
 MyCustumAdapter adapter=new MyCustumAdapter(getApplicationContext(), (ArrayList<list_Item_model>) models);
